@@ -59,7 +59,7 @@ Contact Info:
 
 GitHub: [${data.username}](https://github.com/${data.username})
 
-Email: [${data.email}](maileto:${data.email})
+Email: [${data.email}](mailto:${data.email})
 
 ## License
 
