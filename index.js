@@ -198,16 +198,18 @@ var questions = [
 
 
 async function init() {
+    // Prompt questions and get answers
     const answer = await inquirer.prompt(questions);
-    // console.log(answer);
 
+    // Add license code and icon to the answers before passing the variable to the renderer
     answer.license_code = license_map[answer.license];
     answer.license_icon = answer.license_code.replace('-','--');
-    // console.log(answer);
-
+    
+    // get markdown text from the answers
     var mdtext = renderMarkdown(answer);
-    console.log(mdtext);
 
+    // Write into file
+    writeFile('./README_output.md', mdtext);
 };
 
 init();
