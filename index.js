@@ -1,6 +1,7 @@
 import inquirer from 'inquirer';
 import util from 'util';
 import fs from 'fs';
+import renderMarkdown from './RenderMarkdown.js';
 
 const writeFile = util.promisify(fs.writeFile);
 
@@ -198,7 +199,15 @@ var questions = [
 
 async function init() {
     const answer = await inquirer.prompt(questions);
-    console.log(answer);
+    // console.log(answer);
+
+    answer.license_code = license_map[answer.license];
+    answer.license_icon = answer.license_code.replace('-','--');
+    // console.log(answer);
+
+    var mdtext = renderMarkdown(answer);
+    console.log(mdtext);
+
 };
 
 init();
