@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "readme-gen",
   "version": "1.0.0",
   "description": "Readme generator",
@@ -11,5 +12,8 @@
     "url": "bootcamp:ggulmom/readme-gen.git"
   },
   "author": "YouJin Kim",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.7"
+  }
 }
