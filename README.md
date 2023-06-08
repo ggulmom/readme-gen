@@ -24,11 +24,11 @@ To use this app, run "node index.js" from terminal
 * You can select the license by pressing space key after navigating with arrow keys. "Only One" License can be accepted. If you don't select anything, you have to select one. If you select multiple, you have to deselect all but one.
 
 See the demo video below
-<!-- ![](./asset/readme-gen_demo.mov) -->
+![](./asset/readme-gen_demo.mov)
 
-<video controls>
+<!-- <video controls>
   <source src="./asset/readme-gen_demo.mov" type="video/mp4">
-</video>
+</video> -->
 
 ## Questions
 
