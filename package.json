@@ -1,0 +1,15 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "Readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bootcamp:ggulmom/readme-gen.git"
+  },
+  "author": "YouJin Kim",
+  "license": "MIT"
+}
