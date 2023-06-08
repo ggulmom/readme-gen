@@ -23,9 +23,11 @@ To use this app, run "node index.js" from terminal
 * For optional sections, you can answer No to skip the section. Otherwise, you'll be asked the contents and you'll have to fill in.
 * You can select the license by pressing space key after navigating with arrow keys. "Only One" License can be accepted. If you don't select anything, you have to select one. If you select multiple, you have to deselect all but one.
 
-See the demo video below
-![](./asset/readme-gen_demo.mov)
+[Link to the Demo Video](https://github.com/ggulmom/readme-gen/blob/main/asset/readme-gen_demo.mov)
 
+
+<!-- See the demo video below -->
+<!-- ![](./asset/readme-gen_demo.mov) -->
 <!-- <video controls>
   <source src="./asset/readme-gen_demo.mov" type="video/mp4">
 </video> -->
